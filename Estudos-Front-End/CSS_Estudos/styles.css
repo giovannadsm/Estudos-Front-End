@@ -1,0 +1,81 @@
+h1{
+    color: brown;
+}
+
+p{
+    color: darkblue;
+}
+
+h2{
+    color: darkgoldenrod;
+    text-align: center;
+    font-size: 50px;
+}
+
+/*comentarios*/
+
+/*classes e ids*/
+
+.p-texto {
+    color: deeppink;
+}
+
+#titulo-app {
+    color: forestgreen;
+    font-size: 80;
+}
+
+/*Backgrounds*/
+
+.div-background {
+    background-image: url(../img/OIP.jpg); /*para adicionar imagens */
+    height: 300px;
+}
+.titulo-background {
+    text-align: center;
+    background-color:#000;
+    color: gainsboro;
+}
+
+/*tipos de fontes*/
+
+.family {
+    color: brown;
+    font-size: 40px;
+}
+
+.family.serif {
+    color: chartreuse;
+}
+
+.serif {
+    font-family: 'Times New Roman', Times, serif;
+    color: darkblue;
+}
+
+.sans-serif {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkmagenta;
+}
+
+.monospace {
+    font-family: 'Courier New', Courier, monospace;
+    color: gold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.variant {
+    font-variant: small-caps;z
+}
+
