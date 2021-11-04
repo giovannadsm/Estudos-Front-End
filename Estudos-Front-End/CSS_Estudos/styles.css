@@ -3,7 +3,7 @@ h1{
 }
 
 p{
-    color: darkblue;
+    color: gold;
 }
 
 h2{
@@ -40,7 +40,7 @@ h2{
 /*tipos de fontes*/
 
 .family {
-    color: brown;
+    color: rgb(42, 165, 52);
     font-size: 40px;
 }
 
@@ -50,7 +50,7 @@ h2{
 
 .serif {
     font-family: 'Times New Roman', Times, serif;
-    color: darkblue;
+    color: gold;
 }
 
 .sans-serif {
@@ -78,4 +78,31 @@ h2{
 .variant {
     font-variant: small-caps;z
 }
-
+/*editando o border para o padding encostar no canto da tela */
+body {
+    margin: 0;
+}
+.boxmodel {
+    width: 200px;
+    height: 200px 
+    background-color: gold; 
+    padding: 30px 23px 5px 10px /*especifico agrupado*/
+   /*padding: 30px 20px;* especifico*/
+    border: 3px solid #000;
+    margin: 50px; 
+    /*ver com o maycon pq o margin esta excluindo o border*/
+}
+/*
+ ________________
+| Margin         |
+| _______________|
+||border        ||
+||  ___________ ||
+|| |padding    |||
+|| |___________|||
+||______________||
+|________________|
+*/ 
+/*margin empurra o elemento para o lado que vc escolher */
+/*Border te permite adicionar uma margen entre a margin e o padding*/
+/*padding o espaçamento do elemento*/
