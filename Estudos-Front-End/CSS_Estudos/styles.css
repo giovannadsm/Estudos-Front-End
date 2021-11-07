@@ -3,7 +3,7 @@ h1{
 }
 
 p{
-    color: gold;
+    color: black;
 }
 
 h2{
@@ -84,13 +84,13 @@ body {
 }
 .boxmodel {
     width: 200px;
-    height: 200px 
-    background-color: gold; 
-    padding: 30px 23px 5px 10px /*especifico agrupado*/
+    height: 200px; 
+    background-color: white; 
+    padding: 30px 23px 5px 10px; /*especifico agrupado*/
    /*padding: 30px 20px;* especifico*/
     border: 3px solid #000;
     margin: 50px; 
-    /*ver com o maycon pq o margin esta excluindo o border*/
+    /*margin: 5px 20px 5px 10px; especifico agrupado */
 }
 /*
  ________________

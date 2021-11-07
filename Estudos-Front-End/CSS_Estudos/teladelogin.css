@@ -1,0 +1,49 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;/*tipo de fonte aplicada*/
+    background-image: url(../img/Medicamentos.jpg); /*para adicionar imagens */
+
+}
+
+.login {
+    background-color: rgba(0, 0, 0, 1);/*alpha é a tranparencia, o fundinho*/
+    position: absolute; /*ocupa o espaço apenas de seus elementos*/
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%); /*centralizar a div*/
+    padding: 50px; /*distancia entre os elementos e a borda */
+    border-radius: 15px; /*arrendondar as bordas*/
+    color: white;
+}
+
+input{
+    padding: 15px; /*distancia entre os elementos e a borda*/
+    border: none; /*tirar a borda*/
+    outline: none; /*tirar a linha que fica para fora*/
+    font-size: 15px;/*tamanho da fonte*/
+}
+
+button{
+    background-color: dodgerblue;/*a cor do botão para poder fazer o envio*/
+    border: none; /*tirar a borda*/
+    padding: 15px;/*distancia entre os elementos e a borda*/
+    width: 100%;/*largura*/
+    border-radius: 12px;/*arrendondar as bordas*/
+    color: white /*para palavra 'enviar' ficar na cor branca*/
+}
+
+.logan {
+    color: white;/*cor do icone*/
+    text-align: center;/*para poder centralizar o icone*/
+}
+
+a {
+    color: rgb(113, 158, 175);/*cor da fonte*/
+    font-size: 10px;/*tamanho da fonte*/
+    text-align: center;/*centralizar os textos*/
+}
+
+button:hover {
+    background-color: cornflowerblue; /*quando passar o mouse em cima muda a cor*/
+    cursor: pointer;/*muda o formato do cursor do mouse */
+}
