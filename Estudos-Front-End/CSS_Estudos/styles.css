@@ -106,3 +106,79 @@ body {
 /*margin empurra o elemento para o lado que vc escolher */
 /*Border te permite adicionar uma margen entre a margin e o padding*/
 /*padding o espaçamento do elemento*/
+
+
+
+/*POSITIONS e seus tipos:*/
+
+/*static - flow no html, não é alterado por top, left, right e bottom*/
+/*relative - flow do html, ela é alterada pelo top, left, right e bottom */
+/*fixed - posiciona em qualquer lugar da tela, e é posicionada em relação ao html*/
+/*absolute - posiciona em qualquer lugar, e ela respeita o elemento antecessor*/
+/*sticky - esta no flow do html, porem ao passar o scroll ela funciona como fixed*/
+
+
+/*
+/\ top    < left      >right      \/ bottom
+*/
+
+.div-position {
+    width: 500px;
+    height: 500px;
+    background-color: coral;
+}
+
+.static {
+    position: static; /*Não muda nada - ela não se posiciona*/
+}
+
+.relative { /*se torna relativo a div que ja existe*/
+    position: relative;
+    background-color: darkblue;
+    top: 100px;
+    left: 50px;
+}
+
+.absolute { /*ela respeita a hierarquia do html e respeita a div 'pai' dela */
+    position: absolute;
+    background-color: darkred;
+    top: 0;
+    left: 0;
+}
+
+.fixed { /*ela acompanha a tela*/
+    position: fixed;
+    background-color: darkseagreen;
+    height: 200px;
+    bottom: 0;
+    right: 0;
+}
+
+.sticky { /*sempre fica junto*/
+    position: sticky;
+    background-color: darkviolet;
+    top: 0px;
+}
+
+/*Float - dizer para aonde o elemento deve flutuar*/
+
+.container {
+    padding: 50px;
+}
+
+.div-float {
+    overflow: auto;
+}
+
+.img-float {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+.p-float {
+    color:darkviolet
+}
