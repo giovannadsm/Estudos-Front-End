@@ -1,0 +1,32 @@
+.nav-custom {
+    background-color: black;
+
+}
+
+.imagem {
+    left: 50cm ;
+    width: 50px;
+   
+}
+
+.d-flex {
+    width: 30%;
+}
+
+#carouselExampleControls {
+    width: 50%;
+    left: 25%;
+}
+h1{
+    text-align: center;
+}
+
+.tipo1{
+    text-align: left;
+}
+
+.tipo2{
+   text-align: right;
+   top: 100%;
+
+}
