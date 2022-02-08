@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;/*tipo de fonte aplicada*/
+    color: azure;
+    min-height: 100vh;
+    background-color: rgb(16, 37, 75);
+}
+
+.titulo {
+    position: absolute; /*ocupa o espaço apenas de seus elementos*/
+    top: 27%;
+    right: 38%;
+    color: black;
+}
+
+.senha{
+    background-color: rgba(224, 221, 221, 0.973);/*alpha é a tranparencia, o fundinho*/
+    position: absolute; /*ocupa o espaço apenas de seus elementos*/
+    top: 20%;
+    right: 32%;
+    padding: 300px; /*distancia entre os elementos e a borda */
+    border-radius: 15px; /*arrendondar as bordas*/
+}
+main{
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+form{
+    position: absolute; /*ocupa o espaço apenas de seus elementos*/
+    top: 35%;
+    right: 43%;
+    padding: 50px; /*distancia entre os elementos e a borda */
+    border-radius: 15px; /*arrendondar as bordas*/
+    color:rgba(11, 8, 212, 0.534)
+    
+}
+
+input{
+    padding: 20px; /*distancia entre os elementos e a borda*/
+    border: none;
+    outline: none; /*tirar a linha que fica para fora*/
+    font-size: 18px;/*tamanho da fonte*/
+    width: 160%
+}
+
+button{
+    background-color: dodgerblue;/*a cor do botão para poder fazer o envio*/
+    border: none; /*tirar a borda*/
+    padding: 18px;/*distancia entre os elementos e a borda*/
+    width: 170%;/*largura*/
+    border-radius: 12px;/*arrendondar as bordas*/
+    color: white; /*para palavra 'enviar' ficar na cor branca*/
+    top: 30%;
+    right: 27%;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: rgb(11, 55, 136); /*quando passar o mouse em cima muda a cor*/
+    cursor: pointer;/*muda o formato do cursor do mouse */
+}
+
+.logan {
+    width: 80px;
+    position: absolute; /*ocupa o espaço apenas de seus elementos*/
+    top: 26%;
+    right: 57%;
+}
+
+.img {
+    width: 1200px;
+    position: absolute; /*ocupa o espaço apenas de seus elementos*/
+    top: 10%;
+    right: 17%;
+}
