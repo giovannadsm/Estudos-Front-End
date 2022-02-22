@@ -1,3 +1,19 @@
+/*Breakpoints -- criado atraves de media query para deixar o site responsivo - padrao mobile first*/
+/*Os breakpoints do boostratp sao utilizados por classes como: sm, md, lg*/
+
+
+                                           /*Tabela Breakpoints*/    
+                            /*
+                            Breakpoint	        Class infix	         Dimensions
+                            X-Small	                None	           <576px
+                            Small	                 sm	               ≥576px
+                            Medium                   md                ≥768px
+                            Large	                 lg	               ≥992px
+                            Extra large	             xl	               >1200px
+                            Extra extra large	     xxl	           ≥1400px  */
+
+
+
 /*XS*/
 h1 {
     color: brown;
@@ -42,5 +58,50 @@ h1 {
     background-color: chartreuse;
 }
 
-/*Breakpoints -- criado atraves de media query para deixar o site responsivo - padrao mobile first*/
-/*Os breakpoints do boostratp sao utilizados por classes como: sm, md, lg*/
+
+
+/*Container breakpoint*/
+
+.container-sm {
+    margin-bottom:30px;
+    border: 2px solid blue;
+}
+
+.container-md {
+    margin-bottom:30px;
+    border: 2px solid red;
+}
+
+.container-lg {
+    margin-bottom:30px;
+    border: 2px solid gold;
+}
+
+
+                                                      /*Grid*/
+                               /*Grid é a estrutura para criar layouts com Bootstrap.
+                                 Estrutura do Grid: Container > Row > Colunas;
+                                 Row para determinar uma linha (largura 100%);
+                                 Colunas para subdividir o Container em até 12 partes. */
+
+
+/*Grid*/
+
+.container{
+    border: 5px dotted blue;
+    padding: 10px;
+    margin-bottom: 300px;
+}
+
+.row{
+    border: 5px solid purple;
+    height: 100px;
+    padding: 10px;
+    margin: 0;
+}
+
+.col{
+    border: 2px dashed red;
+    height: 100%;
+    margin: 0;
+}
