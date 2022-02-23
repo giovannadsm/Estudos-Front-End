@@ -100,8 +100,32 @@ h1 {
     margin: 0;
 }
 
-.col{
+.col,
+.col-4,
+.col-2,
+.col-1,
+.col-11,
+.col-6{
     border: 2px dashed red;
     height: 100%;
     margin: 0;
+}
+
+#largura-limitada{
+    max-width: 500px;
+}
+
+/*alinhamento vertical*/
+
+.vertical{
+    height: 250px;
+    border-color: coral;
+}
+
+.vertical .row {
+    height: 100%;
+}
+
+.col-6{
+    height: 50px;
 }
