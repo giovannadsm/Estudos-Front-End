@@ -127,7 +127,8 @@ h1 {
     height: 100%;
 }
 
-.col-6,
-.col-3{
+ .col-6,
+ .col-3,
+ .col-4{
     height: 50px;
 }
