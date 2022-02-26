@@ -143,3 +143,17 @@ h1 {
     height: 50px;
     border: 2px solid red;
 }
+
+/*Gutter*/
+
+#gutter .row{
+    height: 200px;
+}
+
+#gutter .col-6{
+    margin: auto;
+}
+
+.row p {
+    border: 2px solid green;
+}
