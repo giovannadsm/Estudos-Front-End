@@ -58,8 +58,10 @@
       }
       
       #navbar a {
-        width: 100px;
-        color: #444;
+        text-align: center;
+        font-size: 18px;
+        width: 140px;
+        color: rgb(226, 217, 217);
       }
       
       #navbar a:hover {
