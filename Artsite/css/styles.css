@@ -38,16 +38,16 @@
   }
   
   #header p {
-    margin-bottom: 0;
+    margin-bottom: 0; /*Margin na area inferior de um elemento*/
   }
   
   #logo-container {
-    display: flex;
+    display: flex; /*O elemento se comporta como um elemento embutido e apresenta seu conteúdo de acordo com o modelo flexbox.*/
     justify-content: center;
   }
   
   #logo {
-    width: 40px;
+    width: 40px; /*Largura do elemento*/
     margin-right: 15px;
   }
   

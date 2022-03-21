@@ -8,7 +8,7 @@
     text-decoration: none;
   }
   
-  .secondary-color {
+  .secondary-color { /*Cor secundaria*/
     color: rgb(70, 5, 5);
   }
   
@@ -17,7 +17,7 @@
     background-position: center;
   }
   
-  .btn {
+  .btn { /*botões*/
     text-decoration: none;
     background-color: rgb(150, 5, 5);
     color: #FFF;
@@ -25,7 +25,43 @@
     border-radius: 0;
   }
   
-  .btn:hover {
+  .btn:hover { /* cor ao passar o mouse por cima*/
     background-color: rgb(70, 5, 5);
     color: #FFF;
   }
+
+/* HEADER */
+#header{
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #CCC;
+  }
+  
+  #header p {
+    margin-bottom: 0; /*Margin na area inferior de um elemento*/
+  }
+  
+  #logo-container {
+    display: flex; /*O elemento se comporta como um elemento embutido e apresenta seu conteúdo de acordo com o modelo flexbox.*/
+    justify-content: center;
+  }
+  
+  #logo {
+    width: 40px; /*Largura do elemento*/
+    margin-right: 15px;
+  }
+
+    /* NAVBAR */
+    #navbar {
+        padding: 10px;
+        margin: 10px auto;
+      }
+      
+      #navbar a {
+        width: 100px;
+        color: #444;
+      }
+      
+      #navbar a:hover {
+        color: rgb(150, 5, 5)
+      }
